@@ -462,12 +462,16 @@ form button:hover {
   }
 
 }
+@media screen and (max-width: 800px){
+    .people {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
 
 @media screen and (max-width: 600px){
   .images {
-    grid-template-columns: 1fr;
-  }
-  .people {
     grid-template-columns: 1fr;
   }
   .package-divs {
@@ -476,6 +480,4 @@ form button:hover {
     gap: 8rem;
     /* margin-top: 20px; */
   }
-
-
 }
