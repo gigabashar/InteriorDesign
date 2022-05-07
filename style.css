@@ -467,4 +467,15 @@ form button:hover {
   .images {
     grid-template-columns: 1fr;
   }
+  .people {
+    grid-template-columns: 1fr;
+  }
+  .package-divs {
+   
+    grid-template-columns: 1fr ;
+    gap: 8rem;
+    /* margin-top: 20px; */
+  }
+
+
 }
